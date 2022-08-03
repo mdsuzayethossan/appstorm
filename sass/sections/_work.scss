@@ -1,0 +1,21 @@
+#work {
+    @include for-phone-only {
+        margin-top: 55rem!important;
+    }
+    .container {
+        .work-item {
+            figure {
+                img {
+
+                }
+                .work-shape {
+                    img {
+                        width: 150px;
+                        height: 150px;
+                    }
+                  
+                }
+            }
+        }
+    }
+}

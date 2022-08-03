@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.app-color {
+    color: #f26d7d;
+}
+.app-color:hover {
+    color: #f26d7d;
+}
+.app-btn-bg {
+    background-color: #f26d7d;
+    border: none;
+}
+.app-btn-bg:hover {
+    background-color: #f26d7d;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgb(0 0 0 / 15%);
+}
+.app-outline-btn {
+    border: 1px solid #f26d7d;
+    color: #f26d7d;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.app-outline-btn:hover {
+    background-color: #f26d7d;
+    color: white;
+}
+.premium-bg {
+    background-color: rgb(217, 98, 112);
+}
+

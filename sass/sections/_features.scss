@@ -1,0 +1,31 @@
+#features {
+    margin-top: 16.125rem;
+    .container {
+        .feature-left-item {
+            .first-img {
+               
+                
+            }
+            .second-img {
+                z-index: 99;
+
+                
+            }
+            .third-img {
+                left: 5%;
+                
+            }
+        }
+    }
+}
+.accordion-button:focus {
+ 
+  box-shadow: none;
+}
+.accordion-button::after {
+    display: none;
+}
+.accordion-button:not(.collapsed) {
+   color: $app-primary;
+   background-color: transparent;
+}

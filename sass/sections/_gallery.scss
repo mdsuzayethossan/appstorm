@@ -1,0 +1,36 @@
+#gallery {
+    margin-top: 8.125rem;
+    .container-fluid {
+        i {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            color: white;
+            z-index: 99;
+            @include for-phone-only {
+                display: none;
+            }
+            &:hover {
+                background-color: black;
+            }
+            
+        }
+        .gallery-icon-right {
+            right: 0;
+
+        }
+    }
+    
+}
+.gallery-main .slick-center {
+    img {
+        opacity: 1!important;
+        transform: scale(1.02);
+        -webkit-transform: scale(1.02);
+        -moz-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+        -o-transform: scale(1.02);
+}
+}

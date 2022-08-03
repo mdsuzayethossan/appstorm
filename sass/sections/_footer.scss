@@ -1,0 +1,26 @@
+footer {
+    background-image: url("/images/footer/bg-desk.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &::before {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        content: '';
+        background-color: rgba(27, 20, 100, 0.8);
+        height: 100%;
+        top: 0;
+        z-index: 9;
+    }
+    .container {
+        position: relative;
+        .footer-content-inner {
+            position: absolute;
+            width: 100%;
+            z-index: 99;
+        }
+    }
+}

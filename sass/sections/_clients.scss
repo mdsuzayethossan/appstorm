@@ -1,0 +1,55 @@
+#clients {
+    .container {
+        .client-header {
+            margin: 8.125rem 0;
+        }
+        .client-item {
+            margin: 80px 0;
+            @include for-phone-only {
+                margin-top: 160px;
+            }
+            .client-image {
+                @include for-phone-only {
+                    margin-top: -160px;
+                }
+                img {
+                }
+            }
+            article {
+                margin: 0 auto;
+                margin-top: -140px;
+                min-height: 100%;
+            }
+            p {
+                @include for-desktop-up {
+                    max-width: 43vw;
+                    margin: 0 auto;
+                    
+                }
+            }
+
+        }
+    }
+}
+
+#clients .slick-slide img {
+    display: inline;
+}
+
+#clients .slick-dots {
+    display: flex;
+    justify-content: center;
+}
+#clients .slick-dots button {
+    display: none;
+}
+#clients .slick-dots li{
+    margin: 0 9px;
+    font-size: 27px;
+    color: #191919;
+    opacity: .2;
+}
+#clients .slick-dots li.slick-active{
+    color: #191919;
+    opacity: 1;
+}

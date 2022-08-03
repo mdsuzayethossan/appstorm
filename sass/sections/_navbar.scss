@@ -1,0 +1,33 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    @include tranisition;
+    .container {
+         .navbar-band {
+
+         }
+         .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        opacity: .5;
+                        &:hover {
+                            color: white;
+                            opacity: 1;
+                        }
+
+                    }
+                }
+            }
+         }
+         .download-btn {
+            button {
+            }
+         }
+    }
+}
+.bg-nav {
+    background-color: rgb(26, 19, 96);
+}

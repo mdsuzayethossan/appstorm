@@ -1,0 +1,13 @@
+#price {
+    margin-top: 8.125rem;
+    .price {
+        background-color: rgb(27, 20, 100);
+       
+    }
+    .price-middle {
+        z-index: 9;
+    }
+}
+.price-cost {
+    background-color: rgba(0,0,0,.03);
+}
