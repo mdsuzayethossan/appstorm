@@ -25,16 +25,24 @@
                     height: 50vh;
                     background-position: 20%;
                 }
+                @include for-tablet-landscape-up {
+                    height: 60vh;
+                    background-position: 20%;
+                    
+                }
                 .container {
                     .banner-item-content {
                         padding-top: 14rem;
-                        @include for-phone-only {
+                        @include for-tablet-landscape-up {
                             padding-top: 7rem;
                         }
                         h1 {
                             font-size: 4rem;
                             @include for-phone-only {
-                                font-size: 2rem;
+                                font-size: 2rem!important;
+                            }
+                            @include for-tablet-landscape-up {
+                                font-size: 3rem;
                             }
                         }
                         
@@ -44,8 +52,10 @@
             }
             .phone-slider-main {
                 @include for-phone-only {
-                    top: 10rem;
+                    margin-top: 2rem;
                 }
+               
+             
             }
         }
     }

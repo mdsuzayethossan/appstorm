@@ -9,6 +9,9 @@
             }
         }
         .orgnize-phone {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             aside {
                 z-index: -1;
             }

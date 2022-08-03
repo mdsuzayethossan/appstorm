@@ -1,10 +1,11 @@
 #work {
-    @include for-phone-only {
-        margin-top: 55rem!important;
-    }
     @include for-tablet-landscape-up {
-        margin-top: 15rem!important;
+        margin-top: 5rem;
     }
+    @include for-phone-only {
+        margin-top: 35rem;
+    }
+   
     .container {
         .work-item {
             figure {
