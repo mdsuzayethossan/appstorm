@@ -13,6 +13,11 @@
     }
     .container {
         .subscribe-body {
+            h3 {
+                @include for-phone-only {
+                    text-align: center;
+                }
+            }
             padding: 150px 0;
             z-index: 9;
             form {

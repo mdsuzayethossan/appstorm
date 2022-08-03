@@ -8,6 +8,11 @@
          .navbar-band {
 
          }
+         #navbarSideCollapse {
+            @include for-phone-only {
+                margin-right: 7vw;
+            }
+        }
          .navbar-collapse {
             .navbar-nav {
                 .nav-item {

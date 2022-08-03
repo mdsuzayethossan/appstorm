@@ -57,6 +57,11 @@ body {
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
+@media (max-width: 599px) {
+  .navbar .container #navbarSideCollapse {
+    margin-right: 7vw;
+  }
+}
 .navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link {
   opacity: 0.5;
 }
@@ -195,6 +200,9 @@ body {
   text-align: center;
 }
 
+#work {
+  margin-top: 8.125rem;
+}
 @media (max-width: 900px) {
   #work {
     margin-top: 5rem;
@@ -364,6 +372,11 @@ body {
 #subscribe .container .subscribe-body {
   padding: 150px 0;
   z-index: 9;
+}
+@media (max-width: 599px) {
+  #subscribe .container .subscribe-body h3 {
+    text-align: center;
+  }
 }
 @media (max-width: 599px) {
   #subscribe .container .subscribe-body form {
