@@ -1,6 +1,9 @@
 #companies {
     margin-top: 10rem;
     padding: 5rem 0;
+    .slick-dots {
+        display: none!important;
+    }
     ul.slick-dots {
         display: none;
     

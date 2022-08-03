@@ -13,7 +13,17 @@
             }
             .feature-third  {
                 left: 5%;
+                @include for-phone-only {
+                    left: 50%;
+                    @include transform-x-50;
+                }
                 
+            }
+           
+        }
+        .feature-right-item {
+            @include for-phone-only {
+                margin-top: 26rem;
             }
         }
     }

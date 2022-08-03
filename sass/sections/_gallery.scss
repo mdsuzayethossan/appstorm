@@ -10,7 +10,7 @@
             color: white;
             z-index: 99;
             @include for-phone-only {
-                display: none;
+                display: none!important;
             }
             &:hover {
                 background-color: black;
@@ -33,4 +33,7 @@
         -ms-transform: scale(1.02);
         -o-transform: scale(1.02);
 }
+}
+.gallery-main .slick-dots {
+    display: none!important;
 }

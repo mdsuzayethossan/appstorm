@@ -141,7 +141,7 @@ body {
 }
 @media (max-width: 599px) {
   #banner .banner .banner-slider-main .banner-item .container .banner-item-content {
-    padding-top: 10rem;
+    padding-top: 7rem;
   }
 }
 #banner .banner .banner-slider-main .banner-item .container .banner-item-content h1 {
@@ -175,6 +175,11 @@ body {
     margin-top: 55rem !important;
   }
 }
+@media (max-width: 900px) {
+  #work {
+    margin-top: 15rem !important;
+  }
+}
 #work .container .work-item figure .work-shape img {
   width: 150px;
   height: 150px;
@@ -183,6 +188,9 @@ body {
 #companies {
   margin-top: 10rem;
   padding: 5rem 0;
+}
+#companies .slick-dots {
+  display: none !important;
 }
 #companies ul.slick-dots {
   display: none;
@@ -311,6 +319,11 @@ body {
 #subscribe {
   position: relative;
 }
+@media (max-width: 599px) {
+  #subscribe {
+    margin-top: 35rem !important;
+  }
+}
 #subscribe::before {
   position: absolute;
   content: "";
@@ -322,6 +335,11 @@ body {
   padding: 150px 0;
   z-index: 9;
 }
+@media (max-width: 599px) {
+  #subscribe .container .subscribe-body form {
+    align-items: center;
+  }
+}
 #features {
   margin-top: 16.125rem;
 }
@@ -330,6 +348,21 @@ body {
 }
 #features .container .features-main .feature-third {
   left: 5%;
+}
+@media (max-width: 599px) {
+  #features .container .features-main .feature-third {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+}
+@media (max-width: 599px) {
+  #features .container .feature-right-item {
+    margin-top: 26rem;
+  }
 }
 
 .accordion-button:focus {
@@ -373,7 +406,7 @@ body {
 }
 @media (max-width: 599px) {
   #gallery .container-fluid i {
-    display: none;
+    display: none !important;
   }
 }
 #gallery .container-fluid i:hover {
@@ -390,6 +423,10 @@ body {
   -moz-transform: scale(1.02);
   -ms-transform: scale(1.02);
   -o-transform: scale(1.02);
+}
+
+.gallery-main .slick-dots {
+  display: none !important;
 }
 
 #team {

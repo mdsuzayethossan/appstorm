@@ -2,6 +2,9 @@
     @include for-phone-only {
         margin-top: 55rem!important;
     }
+    @include for-tablet-landscape-up {
+        margin-top: 15rem!important;
+    }
     .container {
         .work-item {
             figure {

@@ -1,5 +1,8 @@
 #subscribe {
     position: relative;
+    @include for-phone-only {
+        margin-top: 35rem!important;
+    }
     &::before {
         position: absolute;
         content: '';
@@ -12,9 +15,16 @@
         .subscribe-body {
             padding: 150px 0;
             z-index: 9;
-            .subscribe-email {
-                
+            form {
+                @include for-phone-only {
+                    align-items: center; 
+                } 
+                .subscribe-email {
+                    
+                }
+
             }
+           
 
         }
     }
