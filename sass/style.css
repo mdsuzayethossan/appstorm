@@ -325,10 +325,10 @@ body {
 #features {
   margin-top: 16.125rem;
 }
-#features .container .feature-left-item .second-img {
+#features .container .features-main .second-img {
   z-index: 99;
 }
-#features .container .feature-left-item .third-img {
+#features .container .features-main .feature-third {
   left: 5%;
 }
 
